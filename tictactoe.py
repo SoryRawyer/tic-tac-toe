@@ -30,7 +30,7 @@ class TicTacToe(object):
         [2, 4, 6,],
     ]
 
-    def __init__(self, user_symbol):
+    def __init__(self):
         self._board = [' '] * 9
         self._available_moves = [1, 2, 3, 4, 5, 6, 7, 8, 9,]
         self._computer_symbol = 'X'
@@ -149,7 +149,7 @@ def main():
     """
     main - play tic tac toe
     """
-    tic_tac_toe = TicTacToe('X')
+    tic_tac_toe = TicTacToe()
     tic_tac_toe.play()
     return
 
