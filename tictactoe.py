@@ -13,7 +13,6 @@ Tic-Tac-Toe board:
 -+-+-
 """
 
-from __future__ import print_function
 import random
 
 class TicTacToe(object):
